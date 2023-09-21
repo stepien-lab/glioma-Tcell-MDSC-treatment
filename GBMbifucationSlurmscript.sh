@@ -2,7 +2,7 @@
 #SBATCH --job-name=GBMbifurcationanalysis        # Use the same name as the MATLAB program
 #SBATCH --mail-type=ALL                 # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=hannahanderson@ufl.edu    # Where to send mail
-#SBATCH --account=hannahanderson
+#SBATCH --account=tstepien
 #SBATCH --qos=tstepien-b
 #SBATCH --nodes=1                       # Use one node
 #SBATCH --ntasks=1                      # Run a single task
