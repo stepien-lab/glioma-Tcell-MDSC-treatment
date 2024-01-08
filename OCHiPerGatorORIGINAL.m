@@ -80,7 +80,7 @@ for i = 1:n
     p = Psample(i,:);
     output{i,1} = p;
     %output{i,2:7} = GBMoptimalcontrol(p, Cthreshold, antiPD1threshold, CCR2threshold, maxdose, multiple, Intconstraint);
-    preoutput = GBMoptimalcontrol(p, Cthreshold, antiPD1threshold, CCR2threshold, maxdose, multiple, Intconstraint);
+    preoutput = GBMoptimalcontrolORIGINAL(p, Cthreshold, antiPD1threshold, CCR2threshold, maxdose, multiple, Intconstraint);
     for j = 2:6
         output{i,j} = preoutput{j-1};
     end
