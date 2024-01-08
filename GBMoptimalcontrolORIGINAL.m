@@ -1,6 +1,6 @@
 % OPTIMAL CONTROL FUNCTION
 
-function GBMoutput = GBMoptimalcontrol(p, Cthreshold, antiPD1threshold, CCR2threshold, maxdose, multiple, Intconstraint)
+function GBMoutput = GBMoptimalcontrolORIGINAL(p, Cthreshold, antiPD1threshold, CCR2threshold, maxdose, multiple, Intconstraint)
 
 % Parameters:
 %-------------------------------------------------------------------%
