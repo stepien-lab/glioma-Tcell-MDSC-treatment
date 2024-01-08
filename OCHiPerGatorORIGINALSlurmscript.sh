@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --job-name=OCHiPerGator       # Use the same name as the MATLAB program\
+#SBATCH --job-name=OCHiPerGatorORIGINAL       # Use the same name as the MATLAB program\
 #SBATCH --mail-type=ALL                 # Mail events (NONE, BEGIN, END, FAIL, ALL)\
 #SBATCH --mail-user=hannahanderson@ufl.edu    # Where to send mail\
 #SBATCH --account=tstepien
@@ -13,7 +13,7 @@
 pwd; hostname; date
 
 module load matlab
-./OCHiPerGator
+./OCHiPerGatorORIGINAL
 
 date
 exit
