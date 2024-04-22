@@ -1,6 +1,6 @@
 function dxdt = GBMFuncoptimal(t,x,p)
 
-% This is our model of treatment-free glioblastoma-immune dynamics 
+% Anderson et al. (2024) model of treatment-free glioblastoma-immune dynamics 
 % to be used in conjunction with the optimal control code.
 
 % The purpose of this code is to determine system dynamics pre- and
