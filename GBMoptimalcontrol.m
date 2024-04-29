@@ -8,7 +8,6 @@ function GBMoutput = GBMoptimalcontrol(p,initialcondition,bounds,guess,mesh)
 %-------------------------------------------------------------------%
 %-------------------- Data Required by Problem ---------------------%
 %-------------------------------------------------------------------%
-disp('startingrun')
 auxdata.lambdaC = p(1);
 auxdata.Cmax = p(2);
 auxdata.eta = p(3);
