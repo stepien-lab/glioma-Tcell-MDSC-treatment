@@ -6,25 +6,41 @@
 clear
                 
 %% Load Data
-
-addpath('/Users/hannahanderson/MATLAB-Drive')
+% Average treatment-free data from:
+% Anderson, H.G., Takacs, G.P., Harris, D.C., Kuang, Y., Harrison, J.K.,
+% Stepien, T.L., 2023. Global stability and parameter analysis reinforce
+% therapeutic targets of PD-L1-PD-1 and MDSCs for glioblastoma. J. Math.
+% Biol. 88, 10. doi:10.1007/s00285-023-02027-y.
 
 data = NaN(6,2,3);
 
 % TUMOR
-data(:,:,1) =  table2array(readtable('GBMtreatmentfreedata.xlsx','Sheet',1,'Range','E3:F8'));
+data(:,:,1) =  [7,	135472.1199;
+                13,	2346065.468;
+                20,	2738529.47;
+                24,	1966950.96;
+                27,	2554721.539;
+                34,	3604055.078];
 % two columns of data containing the average number of tumor cells (col 2)
-% on days 7,13, 20, 24, 27, 34 (in that order) (col 1)
+% on days 7,13, 20, 24, 27, 34 (col 1)
 
 % T CELL
-data(1:4,:,2) =  table2array(readtable('GBMtreatmentfreedata.xlsx','Sheet',2,'Range','E3:F6'));
-% two columns of data containing the average number of T cells (column 2)
-% on days 7, 24, 27, 34 (in that order)
+data(1:4,:,2) = [7,	 66131.77729;
+                 24, 1648321.673;
+                 27, 5531328.095;
+                 34, 1440666.895];
+%two columns of data containing the average number of T cells (column 2)
+% on days 7, 24, 27, 34 
 
 % MDSC
-data(:,:,3) =  table2array(readtable('GBMtreatmentfreedata.xlsx','Sheet',3,'Range','E3:F8'));
+data(:,:,3) =  [7,	4912.920428;
+                13,	318639.8845;
+                20,	153378.3547;
+                24,	426057.2876;
+                27,	332805.9517;
+                34,	465179.3829];
 % two columns of data containing the average number of MDSCs (column 2)
-% on days 7, 13, 20, 24, 27, 34 (in that order) (column 1)
+% on days 7, 13, 20, 24, 27, 34 (column 1)
 
 times = [7; 13; 20; 24; 27; 34]; % same as times for tumor and MDSC (T cell has two less data points)
 
