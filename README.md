@@ -11,6 +11,24 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 + [foldername](foldername): Code to create Figures... in the paper
 
 ## Programs
+Optimal Control Folder:
++ [OCHiPerGator.m](OCHiPerGator.m): 
++ [OCHiPerGatorSlurmscript.sh](OCHiPerGatorSlurmscript.sh): 
++ [GBMoptimalcontrol.m](GBMoptimalcontrol.m): 
++ [GBMFuncoptimal.m](GBMFuncoptimal.m): 
++ [gliomaImmunotherapyContinuous.m](gliomaImmunotherapyContinuous.m): 
++ [gliomaImmunotherapyEndpoint.m](gliomaImmunotherapyEndpoint.m): 
++ [OCoptimizedexample.m](OCoptimizedexample.m): 
++ [virtualcohortFigures.m](virtualcohortFigures.m): 
+
+Parameter Identifiability Folder:
++ [GBM_identifability_main.m](GBM_identifiability_main.m): 
++ [GBMFuncidentifiable.m](GBMFuncidentifiable.m):
++ [GBMCost.m](GBMCost.m): 
++ [GBMMiniFisher.m](GBMMiniFisher.m): 
++ [GBMProfLike.m](GBMProfLike.m): 
++ [Differential Algebra Approach for Global Structural Identifiability for GBM model.nb](Differential Algebra Approach for Global Structural Identifiability for GBM model.nb): 
+
 + [filename.m](filename.m): run this program to solve the model equations
 
 ## Lead Developer
