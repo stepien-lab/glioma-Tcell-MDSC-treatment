@@ -27,7 +27,7 @@ Parameter Identifiability Folder:
 + [GBMCost.m](Practical_Identifiability/GBMCost.m): 
 + [GBMMiniFisher.m](Practical_Identifiability/GBMMiniFisher.m): 
 + [GBMProfLike.m](Practical_Identifiability/GBMProfLike.m): 
-+ [Differential Algebra Approach for Global Structural Identifiability for GBM model.nb](Practical_Identifiability/Differential Algebra Approach for Global Structural Identifiability for GBM model.nb): 
++ [Differential Algebra Approach for Global Structural Identifiability for GBM model.nb](Practical_Identifiability/Differential_Algebra_Approach_for_Global_Structural Identifiability_for_GBM_model.nb): 
 
 + [filename.m](filename.m): run this program to solve the model equations
 
