@@ -22,12 +22,12 @@ Optimal Control Folder:
 + [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): 
 
 Parameter Identifiability Folder:
-+ [GBM_identifability_main.m](Practical_Identifiability/GBM_identifiability_main.m): 
-+ [GBMFuncidentifiable.m](Practical_Identifiability/GBMFuncidentifiable.m):
-+ [GBMCost.m](Practical_Identifiability/GBMCost.m): 
-+ [GBMMiniFisher.m](Practical_Identifiability/GBMMiniFisher.m): 
-+ [GBMProfLike.m](Practical_Identifiability/GBMProfLike.m): 
-+ [Differential Algebra Approach for Global Structural Identifiability for GBM model.nb](Practical_Identifiability/Differential_Algebra_Approach_for_Global_Structural Identifiability_for_GBM_model.nb): 
++ [GBM_identifability_main.m](Parameter_Identifiability/GBM_identifiability_main.m): 
++ [GBMFuncidentifiable.m](Parameter_Identifiability/GBMFuncidentifiable.m):
++ [GBMCost.m](Parameter_Identifiability/GBMCost.m): 
++ [GBMMiniFisher.m](Parameter_Identifiability/GBMMiniFisher.m): 
++ [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): 
++ [Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb](Parameter_Identifiability/Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb): 
 
 + [filename.m](filename.m): run this program to solve the model equations
 
