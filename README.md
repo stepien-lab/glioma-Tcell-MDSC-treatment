@@ -9,8 +9,8 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 + [filename.m](filename.m): run this program to solve the model equations
 
 ## Description of Folders
-+ [Optimal Control](Optimal Control): Code to create Figures... in the paper
-+ [Parameter Identifiability](Parameter Identifiability): Code to create Figures... in the paper
++ [glioma-Tcell-MDSC-treatment/Optimal Control](Optimal Control): Code to create Figures... in the paper
++ [stepien-lab/glioma-Tcell-MDSC-treatment/Parameter Identifiability](Parameter Identifiability): Code to create Figures... in the paper
 + [foldername](foldername): Code to create Figures... in the paper
 
 ## Lead Developer
