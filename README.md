@@ -12,7 +12,7 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 
 ## Programs
 Optimal Control Folder:
-+ [OCHiPerGator.m](OCHiPerGator.m): 
++ [OCHiPerGator.m](OptimalControl/OCHiPerGator.m): 
 + [OCHiPerGatorSlurmscript.sh](OCHiPerGatorSlurmscript.sh): 
 + [GBMoptimalcontrol.m](GBMoptimalcontrol.m): 
 + [GBMFuncoptimal.m](GBMFuncoptimal.m): 
