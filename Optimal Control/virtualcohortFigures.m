@@ -1,4 +1,4 @@
-% This file contains code to generate figures 3-6 in Anderson et al. 
+% This script generates figures 3-6 in Anderson et al. 
 % "Optimal control of combination immunotherapy in a glioblastoma-immune 
 % dynamics model" (code does not generate the pi charts, which were 
 % created using PowerPoint)
