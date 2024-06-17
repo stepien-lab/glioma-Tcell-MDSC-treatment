@@ -1,6 +1,6 @@
 % This script outputs Figure 2 of Anderson et al. (2024) representing 
 % the optimal regimen for an average virtual mouse with glioblastoma.
-% Uses: GBMFuncoptimal.m (and output from OCHiPerGator.m + GBMOptimalControl.m)
+% Uses: GBMFuncoptimal.m (and output from OCHiPerGator.m + GBMoptimalcontrol.m)
 
 %% Parameter set for an average virtual mouse
 
