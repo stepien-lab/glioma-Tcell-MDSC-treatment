@@ -13,8 +13,8 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 ## Programs
 Optimal Control Folder:
 + [OCHiPerGator.m](Optimal_Control/OCHiPerGator.m): This script samples n parameter sets to represent the tumor microenvironments of n gliomas, and then calls GBMoptimalcontrol.m to determine optimized, personalized treatment regimens for the virtual cohort. Since this code takes some time, we used the UF supercomputer, HiPerGator, for the treatment personalization of 10,000 virtual subjects.
-+ [OCHiPerGatorSlurmscript.sh](Optimal_Control/OCHiPerGatorSlurmscript.sh): 
-+ [GBMoptimalcontrol.m](Optimal_Control/GBMoptimalcontrol.m): 
++ [OCHiPerGatorSlurmscript.sh](Optimal_Control/OCHiPerGatorSlurmscript.sh): Example slurm script for submitting OCHiPerGator.m to a supercomputer, in our case, the UF supercomputer HiPerGator. To make this slurmscript your own, be sure to modify mail-user, account, and qos. Likely, you'll also need to increase the time.
++ [GBMoptimalcontrol.m](Optimal_Control/GBMoptimalcontrol.m): Function for finding the optimal treatment regimen using GPOPS-II. Called by: OCHiPerGator.m. Uses: gliomaImmunotherapyContinuous.m, gliomaImmunotherapyEndpoint.m.
 + [GBMFuncoptimal.m](Optimal_Control/GBMFuncoptimal.m): 
 + [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): 
 + [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): 
