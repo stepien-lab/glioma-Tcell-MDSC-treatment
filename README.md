@@ -7,7 +7,7 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 
 ## Description of Folders
 + [Optimal Control](Optimal_Control): MATLAB code to optimize treatment regimens for the combination immunotherapy in glioblastoma. Contains code to create Figures 2-6. 
-+ [Parameter Identifiability](Parameter_Identifiability): MATLAB code to perform practical identifiability analysis on the treatment-free model of glioblastoma-immune dynamics. Also contains Mathematica file with the input-output relation from structural identifiability analysis. Contains code to create Figure D7.
++ [Parameter Identifiability](Parameter_Identifiability): MATLAB code to perform practical identifiability analysis on the treatment-free version of the model. Also contains Mathematica file with information regarding structural identifiability analysis. Contains code to create Figure D7.
 + [foldername](foldername): Code to create Figures... in the paper
 
 ## Programs
