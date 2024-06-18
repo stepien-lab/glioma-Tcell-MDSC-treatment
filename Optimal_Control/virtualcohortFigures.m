@@ -1,7 +1,8 @@
-% This script generates figures 3-6 in Anderson et al. 
-% "Optimal control of combination immunotherapy in a glioblastoma-immune 
-% dynamics model" (code does not generate the pi charts, which were 
-% created using PowerPoint)
+% This script analyzes the virtual murine cohort from the OCHiPerGator.m 
+% output and generates figures 3-6 in Anderson et al. "Optimal control 
+% of combination immunotherapy in a glioblastoma-immune dynamics model"
+% (code does not generate the pi charts, which were created using
+% PowerPoint)
 
 % Uses output from OCHiPerGator.m
 
