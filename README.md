@@ -22,8 +22,8 @@ Optimal Control Folder:
 + [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): This script analyzes the virtual murine cohort from the OCHiPerGator.m output and generates figures 3-6 in Anderson et al. (2024).
 
 Parameter Identifiability Folder:
-+ [GBM_identifability_main.m](Parameter_Identifiability/GBM_identifiability_main.m): 
-+ [GBMFuncidentifiable.m](Parameter_Identifiability/GBMFuncidentifiable.m):
++ [GBM_identifability_main.m](Parameter_Identifiability/GBM_identifiability_main.m): Main code for practical identifiability, edited from Marisa Eisenberg's source code. This code loads treatment-free glioblastoma data from Anderson et al. (2023), finds the parameter set of best fit using GBMCost.m along with the gradient descent method, generates the Fisher information matrix using GBMMiniFisher.m, and determines the profile likelihoods using GBMProfLike.m. The code also uses GBMFuncidentifiable.m, which contains the treatment-free model.
++ [GBMFuncidentifiable.m](Parameter_Identifiability/GBMFuncidentifiable.m): Function containing model of treatment-free glioblastoma-immune dynamics to be used for practical identifiability analysis (GBM_identifiability_main.m). The code allows certain parameters to be fixed in GBM_identifiability_main.m while others are varied in order to be fitted to data.
 + [GBMCost.m](Parameter_Identifiability/GBMCost.m): 
 + [GBMMiniFisher.m](Parameter_Identifiability/GBMMiniFisher.m): 
 + [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): 
