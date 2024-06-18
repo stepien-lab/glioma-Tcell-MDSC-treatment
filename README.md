@@ -18,8 +18,8 @@ Optimal Control Folder:
 + [GBMFuncoptimal.m](Optimal_Control/GBMFuncoptimal.m): Function containing the model of treatment-free glioblastoma-immune dynamics to be used in conjunction with the optimal control code. The purpose of this code is to determine system dynamics pre- and post-treatment.
 + [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): Glioblastoma-immune dynamics system (with treatment) and objective functional for optimal control using GPOPS-II. 
 + [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): Endpoint function needed for optimal control using GPOPS-II.
-+ [OCoptimizedexample.m](Optimal_Control/OCoptimizedexample.m): This script outputs Figure 2 representing the optimal regimen for an average virtual mouse with glioblastoma. Uses: GBMFuncoptimal.m (and output from OCHiPerGator.m + GBMoptimalcontrol.m).
-+ [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): This script analyzes the virtual murine cohort from the OCHiPerGator.m output and generates figures 3-6.
++ [OCoptimizedexample.m](Optimal_Control/OCoptimizedexample.m): This script outputs Figure 2 representing the optimal regimen for an average mouse with glioblastoma. Uses: GBMFuncoptimal.m (and output from OCHiPerGator.m + GBMoptimalcontrol.m).
++ [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): This script analyzes the virtual murine cohort from the OCHiPerGator.m output and generates Figures 3-6.
 
 Parameter Identifiability Folder:
 + [GBM_identifability_main.m](Parameter_Identifiability/GBM_identifiability_main.m): Main code for practical identifiability, edited from Marisa Eisenberg's original code (marisae@umich.edu). This code loads treatment-free glioblastoma data from Anderson et al. (2023), finds the parameter set of best fit using GBMCost.m along with the gradient descent method, generates the Fisher information matrix using GBMMiniFisher.m, and determines the profile likelihoods using GBMProfLike.m. The code also uses GBMFuncidentifiable.m, which contains the treatment-free glioblastoma (GBM) model. This code generates Figure D7.
