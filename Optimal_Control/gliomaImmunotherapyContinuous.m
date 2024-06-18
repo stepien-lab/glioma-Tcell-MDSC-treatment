@@ -2,6 +2,9 @@ function phaseout = gliomaImmunotherapyContinuous(input)
 % glioblastoma-immune dynamics system and objective functional for optimal control using GPOPS-II 
 % used in the code GBMoptimalcontrol.m
 
+% Note: if you decide to use a one-term integral constraint (Intconstraint) instead of a three-term 
+% constraint in  OCHiPerGator.m, you'll have to modify the phaseout.integrand at the bottom of this script.
+
 
 %Parameter values for tumor cells:
 lambdaC = input.auxdata.lambdaC;
