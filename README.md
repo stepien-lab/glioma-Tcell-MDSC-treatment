@@ -26,7 +26,7 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 + [GBMCost.m](Parameter_Identifiability/GBMCost.m): Cost function for the GBM model, edited from Marisa Eisenberg's original code. We used the weighted ordinary least squares (OLS) error, but this script contains multiple other error functions that can be used: Poisson ML, root mean square error (RMSE), mean square error (MSE), and relative error.
 + [GBMMiniFisher.m](Parameter_Identifiability/GBMMiniFisher.m): Function to calculate the simplified Fisher information matrix. Original code from Marisa Eisenberg. 
 + [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): Profile Likelihood Generator. Original code from Marisa Eisenberg.
-+ [Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb](Parameter_Identifiability/Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb): Wolfram mathematica document calculating the input-output relation / polynomial for the GBM model. The input-output relation is used to determine the global structural identifiability of the model using the differential algebra approach.
++ [Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb](Parameter_Identifiability/Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb): Wolfram Mathematica document calculating the input-output relation / polynomial for the GBM model. The input-output relation is used to determine the global structural identifiability of the model using the differential algebra approach.
 
 ## Lead Developer
 The lead developer of this code is [Hannah G. Anderson](https://github.com/HannahGrace314).
