@@ -17,7 +17,7 @@ Optimal Control Folder:
 + [GBMoptimalcontrol.m](Optimal_Control/GBMoptimalcontrol.m): Function for finding the optimal treatment regimen using GPOPS-II. Called by: OCHiPerGator.m. Uses: gliomaImmunotherapyContinuous.m, gliomaImmunotherapyEndpoint.m, GBMFuncoptimal.m.
 + [GBMFuncoptimal.m](Optimal_Control/GBMFuncoptimal.m): Function containing the model of treatment-free glioblastoma-immune dynamics to be used in conjunction with the optimal control code. The purpose of this code is to determine system dynamics pre- and post-treatment.
 + [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): Glioblastoma-immune dynamics system and objective functional for optimal control using GPOPS-II. 
-+ [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): 
++ [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): Endpoint function needed for optimal control using GPOPS-II.
 + [OCoptimizedexample.m](Optimal_Control/OCoptimizedexample.m): 
 + [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): 
 
