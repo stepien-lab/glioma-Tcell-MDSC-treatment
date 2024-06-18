@@ -1,5 +1,9 @@
 % Cost Function for the GBM model
 % Original Source: Marisa Eisenberg (marisae@umich.edu)
+% Since we had less T cell data than the other cell types, we had to modify how the T cell data 
+% was inputted into the error equations. We used the weighted ordinary least squares (OLS) error, 
+% but this script constains multiple other error functions that can be used: Poisson ML, 
+% root mean square error (RMSE), mean square error (MSE), and relative error.
 
 function NLL = GBMCost(tspan,fixed,params,indexchooseparam,data,initialcondition)
 params = abs(params);
