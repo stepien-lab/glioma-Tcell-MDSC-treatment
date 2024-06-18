@@ -8,7 +8,6 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 ## Description of Folders
 + [Optimal Control](Optimal_Control): MATLAB code to optimize treatment regimens for the combination immunotherapy in glioblastoma. Contains code to create Figures 2-6. 
 + [Parameter Identifiability](Parameter_Identifiability): MATLAB code to perform practical identifiability analysis on the treatment-free version of the model. Also contains Mathematica file with information regarding structural identifiability analysis. Contains code to create Figure D7.
-+ [foldername](foldername): Code to create Figures... in the paper
 
 ## Programs
 Optimal Control Folder:
@@ -28,8 +27,6 @@ Parameter Identifiability Folder:
 + [GBMMiniFisher.m](Parameter_Identifiability/GBMMiniFisher.m): Function to calculate the simplified Fisher information matrix. Original code from Marisa Eisenberg. 
 + [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): Profile Likelihood Generator. Original code from Marisa Eisenberg.
 + [Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb](Parameter_Identifiability/Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb): Wolfram mathematica document calculating the input-output relation / polynomial for the GBM model. The input-output relation is used to determine the global structural identifiability of the model using the differential algebra approach.
-
-+ [filename.m](filename.m): run this program to solve the model equations
 
 ## Lead Developer
 The lead developer of this code is [Hannah G. Anderson](https://github.com/HannahGrace314).
