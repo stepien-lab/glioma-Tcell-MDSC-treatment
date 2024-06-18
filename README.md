@@ -19,7 +19,7 @@ Optimal Control Folder:
 + [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): Glioblastoma-immune dynamics system and objective functional for optimal control using GPOPS-II. 
 + [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): Endpoint function needed for optimal control using GPOPS-II.
 + [OCoptimizedexample.m](Optimal_Control/OCoptimizedexample.m): This script outputs Figure 2 of Anderson et al. (2024) representing the optimal regimen for an average virtual mouse with glioblastoma. Uses: GBMFuncoptimal.m (and output from OCHiPerGator.m + GBMoptimalcontrol.m).
-+ [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): 
++ [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): This script analyzes the virtual murine cohort from the OCHiPerGator.m output and generates figures 3-6 in Anderson et al. (2024).
 
 Parameter Identifiability Folder:
 + [GBM_identifability_main.m](Parameter_Identifiability/GBM_identifiability_main.m): 
