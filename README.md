@@ -26,7 +26,7 @@ Parameter Identifiability Folder:
 + [GBMFuncidentifiable.m](Parameter_Identifiability/GBMFuncidentifiable.m): Function containing GBM model to be used for practical identifiability analysis (GBM_identifiability_main.m). The code allows certain parameters to be fixed in GBM_identifiability_main.m while others can be varied in order to be fitted to data.
 + [GBMCost.m](Parameter_Identifiability/GBMCost.m): Cost function for the GBM model, edited from Marisa Eisenberg's original code. We used the weighted ordinary least squares (OLS) error, but this script contains multiple other error functions that can be used: Poisson ML, root mean square error (RMSE), mean square error (MSE), and relative error.
 + [GBMMiniFisher.m](Parameter_Identifiability/GBMMiniFisher.m): Function to calculate the simplified Fisher information matrix. Original code from Marisa Eisenberg. 
-+ [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): Profile Likelihood Generator edited for the GBM model. Original code from Marisa Eisenberg.
++ [GBMProfLike.m](Parameter_Identifiability/GBMProfLike.m): Profile Likelihood Generator. Original code from Marisa Eisenberg.
 + [Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb](Parameter_Identifiability/Differential_Algebra_Approach_for_Global_Structural_Identifiability_for_GBM_model.nb): Wolfram mathematica document calculating the input-output relation / polynomial for the GBM model. The input-output relation is used to determine the global structural identifiability of the model using the differential algebra approach.
 
 + [filename.m](filename.m): run this program to solve the model equations
