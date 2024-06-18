@@ -6,8 +6,8 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 >[Hannah G. Anderson](https://github.com/HannahGrace314), Gregory P. Takacs, Jeffrey K. Harrison, Libin Rong, and [Tracy L. Stepien](https://github.com/tstepien/), "Optimal control of combination immunotherapy in a glioblastoma-immune dynamics model"
 
 ## Description of Folders
-+ [Optimal Control](Optimal_Control): Code to create Figures... in the paper
-+ [Parameter Identifiability](Parameter_Identifiability): Code to create Figures... in the paper
++ [Optimal Control](Optimal_Control): MATLAB code to optimize treatment regimens for the combination immunotherapy in glioblastoma. Continas code to create Figures 2-6. 
++ [Parameter Identifiability](Parameter_Identifiability): MATLAB code to perform practical identifiability analysis on the treatment-free model of glioblastoma-immune dynamics. Also contains Mathematica file with the input-output relation from structural identifiability analysis. Contains code to create Figure D7.
 + [foldername](foldername): Code to create Figures... in the paper
 
 ## Programs
