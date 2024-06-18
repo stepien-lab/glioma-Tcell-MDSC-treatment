@@ -16,7 +16,7 @@ Optimal Control Folder:
 + [OCHiPerGatorSlurmscript.sh](Optimal_Control/OCHiPerGatorSlurmscript.sh): Example slurm script for submitting OCHiPerGator.m to a supercomputer, in our case, the UF supercomputer HiPerGator. To make this slurmscript your own, be sure to modify mail-user, account, and qos. Likely, you'll also need to increase the time.
 + [GBMoptimalcontrol.m](Optimal_Control/GBMoptimalcontrol.m): Function for finding the optimal treatment regimen using GPOPS-II. Called by: OCHiPerGator.m. Uses: gliomaImmunotherapyContinuous.m, gliomaImmunotherapyEndpoint.m, GBMFuncoptimal.m.
 + [GBMFuncoptimal.m](Optimal_Control/GBMFuncoptimal.m): Function containing the model of treatment-free glioblastoma-immune dynamics to be used in conjunction with the optimal control code. The purpose of this code is to determine system dynamics pre- and post-treatment.
-+ [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): 
++ [gliomaImmunotherapyContinuous.m](Optimal_Control/gliomaImmunotherapyContinuous.m): Glioblastoma-immune dynamics system and objective functional for optimal control using GPOPS-II. 
 + [gliomaImmunotherapyEndpoint.m](Optimal_Control/gliomaImmunotherapyEndpoint.m): 
 + [OCoptimizedexample.m](Optimal_Control/OCoptimizedexample.m): 
 + [virtualcohortFigures.m](Optimal_Control/virtualcohortFigures.m): 
