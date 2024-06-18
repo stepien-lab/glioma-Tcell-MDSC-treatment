@@ -1,7 +1,7 @@
 function GBMoutput = GBMoptimalcontrol(p,initialcondition,bounds,guess,mesh)
 % function to find the optimal treatment regimen using GPOPS-II
 % Called by: OCHiPerGator.m
-% Uses: gliomaImmunotherapyContinuous.m, gliomaImmunotherapyEndpoint.m
+% Uses: gliomaImmunotherapyContinuous.m, gliomaImmunotherapyEndpoint.m, GBMFuncoptimal.m
 
 
 % Parameters:
