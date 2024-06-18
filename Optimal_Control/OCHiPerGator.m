@@ -92,12 +92,13 @@ end
 % Psample(:,11) = random('Normal',0.258,0.143,n,1);   %dM
 
 
-%% Setup for Optimal Control
-Cgrow = 35000;
-Tgrow = 100;
-Mgrow = 0; 
+%% Setup for Optimal Control 
+% cell numbers at time of tumor implantation
+Cimplant = 35000;
+Timplant = 100;
+Mimplant = 0; 
 
-initialcondition = [Cgrow;Tgrow;Mgrow];
+initialcondition = [Cimplant;Timplant;Mimplant];
 
 %-------------------------------------------------------------------%
 %----------------------- Boundary Conditions -----------------------%
