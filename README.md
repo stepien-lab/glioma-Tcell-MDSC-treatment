@@ -32,4 +32,4 @@ The code contained in the glioma-Tcell-MDSC-treatment project was developed to n
 The lead developer of this code is [Hannah G. Anderson](https://github.com/HannahGrace314).
 
 ## Licensing
-Copyright 2022 [Tracy Stepien's Research Lab Group](https://github.com/stepien-lab/). This is free software made available under the MIT License. For details see the [LICENSE](LICENSE) file.
+Copyright 2022-2024 [Tracy Stepien's Research Lab Group](https://github.com/stepien-lab/). This is free software made available under the MIT License. For details see the [LICENSE](LICENSE) file.
