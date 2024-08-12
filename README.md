@@ -1,9 +1,10 @@
 # glioma-Tcell-MDSC-treatment
 
-<a href="https://github.com/stepien-lab/glioma-Tcell-MDSC-treatment/"><img src="https://img.shields.io/badge/GitHub-stepien--lab%2Fglioma--Tcell--MDSC--treatment-blue" /></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+<a href="https://github.com/stepien-lab/glioma-Tcell-MDSC-treatment/"><img src="https://img.shields.io/badge/GitHub-stepien--lab%2Fglioma--Tcell--MDSC--treatment-blue" /></a> <a href="https://doi.org/10.1101/2024.04.29.591725"><img src="https://img.shields.io/badge/bioRxiv-2024.04.29.591725-orange
+" /></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 
 The code contained in the glioma-Tcell-MDSC-treatment project was developed to numerically simulate the interactions of glioma cells, T cells, and myeloid-derived suppressor cells (MDSCs) in a model of brain cancer with treatment. It is described in:
->[Hannah G. Anderson](https://github.com/HannahGrace314), Gregory P. Takacs, Jeffrey K. Harrison, Libin Rong, and [Tracy L. Stepien](https://github.com/tstepien/), "Optimal control of combination immunotherapy in a glioblastoma-immune dynamics model"
+>[Hannah G. Anderson](https://github.com/HannahGrace314), [Gregory P. Takacs](https://www.linkedin.com/in/gregoryptakacs/), [Jeffrey K. Harrison](https://pharmacology.med.ufl.edu/profile/harrison-jeffrey/), [Libin Rong](https://people.clas.ufl.edu/libinrong/), and [Tracy L. Stepien](https://github.com/tstepien/), Optimal control of combination immunotherapy for a virtual murine cohort in a glioblastoma-immune dynamics model, bioRxiv: [2024.04.29.591725](https://doi.org/10.1101/2024.04.29.591725)
 
 ## Description of Folders
 + [Optimal Control](Optimal_Control): MATLAB code to optimize treatment regimens for the combination immunotherapy in glioblastoma. Contains code to create Figures 2-6. 
